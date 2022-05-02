@@ -1,0 +1,29 @@
+#block{
+    display: flex;
+    justify-content: space-evenly;
+}
+#sidebar{
+    height: 400px;
+    width: 10%;
+    margin-top: 25px;
+    padding: 15px;
+}
+#sidebar>h3{
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+#results{
+    margin-top: 50px;
+    width: 80%;
+}
+.news{
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+}
+.news>img{
+    height: 100%;
+    width: 30%;
+}
